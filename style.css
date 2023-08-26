@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #212244;
+  font-family: Poppins;
+}
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2px;
+  background: rgb(254, 244, 243);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 244, 243, 1) 0%,
+    rgba(255, 254, 249, 1) 46%
+  );
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+.logo {
+  display: flex;
+}
+
+.D {
+  color: white;
+  font-size: 28px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 28px;
+  word-wrap: break-word;
+  background-color: #f94a3d;
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.Fdelivery {
+  color: #f94a3d;
+  font-size: 30px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 28px;
+  word-wrap: break-word;
+  margin-left: 8px;
+  margin-top: 2px;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  margin: 6px;
+  padding: 4px;
+}
+
+.searching {
+  padding: 0px;
+  color: #555;
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  margin-top: 14px;
+  height: 40px;
+}
+
+input[type="search"] {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  border: 1px solid transparent;
+  border-radius: inherit;
+}
+
+input[type="search"]::placeholder {
+  color: #bbb;
+}
+
+button[type="submit"] {
+  text-indent: -999px;
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat center;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.rtSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bag {
+  margin-top: 16px;
+}
+.btn {
+  margin-top: 12px;
+}
+.badge:after {
+  content: attr(value);
+  font-size: 12px;
+  color: #fff;
+  background: red;
+  border-radius: 50%;
+  padding: 0 5px;
+  position: relative;
+  left: -8px;
+  top: -10px;
+  opacity: 0.9;
+}
+button {
+  border: none;
+  border-radius: 10px;
+  background-color: #f94a3d;
+  width: 109px;
+  height: 40px;
+  color: white;
+}
+input {
+  height: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(254, 244, 243);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 244, 243, 1) 0%,
+    rgba(255, 254, 249, 1) 46%
+  );
+}
+img {
+  width: 856px;
+  height: 764px;
+  top: 97px;
+  left: 878px;
+}
+span {
+  color: #f94a3d;
+}
+.firstLine {
+  background-color: #fdecec;
+  color: #f94a3d;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  border-radius: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-size: smaller;
+}
+.text{
+    display: inline;
+    padding-left: 22px;
+}
+.fries {
+  width: 40px;
+  height: 35px;
+  margin-top: 2px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 3px;
+  margin-bottom: -10px;
+  border-color: #fdecec;
+}
+
+.hero-left {
+  margin-left: 140px;
+  margin-top: -180px;
+}
+.explore-btn{
+    margin-top: 30px;
+}
+.txt-2{
+    color: #858391;
+}
+.about-us{
+    display: flex;
+}
+.about-us-img {
+    height: 288px;
+    margin-right: 55px;
+    margin-top: 110px;
+    /* width: 700px; */
+}
+.about-us-txt{
+    margin-left: 100px;
+margin-top: 110px;
+}
+.h3-text{
+    font-size: 45px;
+font-weight: 600;
+letter-spacing: 0.031em;
+}
+.about-us-para{
+    color: #858391;
+    margin-top: 8px;
+}
+.srs{
+    margin-top: 25px;
+}
+.srs-heading{
+    text-align: center;
+    font-size: 41px;
+    line-height: 0.9;
+    letter-spacing: 0.085em;
+    font-weight: 600;
+  
+}
+.srs-ul{
+    margin-left: 305px;
+    margin-top: 15px;
+}
+.srs-li{
+    padding: 21px;
+    font-weight: 500;
+}
+.ff{
+    color: #f94a3d;
+}
+.srs-hr{
+    margin-top: -20px;
+    color: #f4f4f4;
+}
